@@ -1,0 +1,134 @@
+body{
+    /* background-color: rgb(245, 232, 225); */
+    /* background-repeat: repeat-y; repeat x y(重複擺放橫或直)有無重複*/
+    /* background-position-x:圖片位置left right top bottom center 上下左右中組合 可以指定座標像50px 150px; */
+    /* background-attachment: 固定在哪一塊不管怎麼捲動螢幕都會固定在那塊; */
+    background-image: url("mypic/paul-volkmer-qVotvbsuM_c-unsplash.jpg");
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-attachment: fixed;
+    color: rgb(195, 203, 236);
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 0px;
+    margin: 0px;
+    margin-left: 100px;
+}
+#container{
+    width: 960px;
+    margin: 0 auto; /*邊界*/
+}
+
+h1{
+    color: rgb(148, 157, 207);
+}
+h4{
+    color: rgb(192, 196, 243);
+}
+p{
+    color: rgb(199, 202, 233);
+}
+header{
+    width: 1000px;
+    height: 80px;
+    background-color: #2e374e;
+    padding: 15px 10px;
+    margin: 0 auto;
+}
+header img{
+    width: 15%;
+    height: auto;
+    cursor: pointer;
+    margin: 10px;
+}
+#hungtzuhui{
+    width: 15%;
+    height: auto;
+    cursor: pointer;
+    margin: 10px;
+    float: right;
+}
+header img:hover{
+    transform: rotate(3deg);
+}
+
+nav{
+    margin: 30px 100px;
+}
+nav li{
+    display: inline-block;
+    margin-right: 20px;
+}
+nav a{
+    color: #1b2e5f;
+    background-color: #4f8394;
+    padding: 15px 20px;
+    text-decoration: none;
+    font-size: 20px;
+    font-weight: bold;/*粗體*/
+    margin-left: 15px;
+}
+nav a:hover{
+    color:#4f8394;
+    background-color: #1b2e5f;
+    font-size: 25px;
+    text-decoration: none;
+}
+#Aboutme,#Interst,#family,#College{
+    margin: 50px 50px;
+}
+
+#topimg{
+    width: 70px;
+    position: fixed;
+    right: 20px;
+    bottom: 10px;
+}
+img{
+    width: 30%;
+    height: 300px;
+}
+#me{
+    width: 80%;
+    height: auto;
+}
+
+#left{
+    width: 40%;
+    float: left;
+    color: rgb(204, 204, 236);
+}
+#right{
+    width: 40%;
+    float: right;
+}
+footer{
+    height: 50px;
+    clear: both;
+}
+#last{
+    margin-left: 50px;
+}
+#video{
+    width: 400px;
+    height: auto;
+}
+#voll{
+    width: 100%;
+    height: auto;
+}
+#cow{
+    width: 100%;
+    height: auto;
+}
+#uni{
+    width: 40%;
+    height: auto;
+}
+#ya{
+    width: 40%;
+    height: auto;
+}
+#ele{
+    width: 20%;
+    height: auto;
+}
